@@ -1,0 +1,10 @@
+begin
+def_int a, b, c;
+in>>a>>b>>c;
+def_int delta;
+delta=b*b-4*a*c;
+def_float x1,x2;
+x1=((-b)-sqrt(delta))/(2 * a);
+x2=((-b)+sqrt(delta))/(2 * a);
+out<<x1<<x2<<"123string";
+end

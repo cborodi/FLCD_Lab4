@@ -1,0 +1,16 @@
+begin
+def_int arr[10];
+def_int n;
+in >> n;
+def_int sum;
+sum = 0;
+loop (def_int i = 0; i < n; i = i + 1)
+{
+	in >> arr[i];	
+}
+loop (def_int i = 0; i < n; i = i + 1)
+{
+	sum = sum + arr[i];
+}
+out << sum;
+end
